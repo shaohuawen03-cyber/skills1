@@ -126,13 +126,12 @@ def main():
     txt = os.path.join(WORK, 'body.txt')
     with open(txt, 'w', encoding='utf-8') as f:
         f.write(body)
-    lines_json = os.path.join(WORK, 'lines.json')
-    with open(lines_json, 'w', encoding='utf-8') as f:
-        json.dump(SUBS, f, ensure_ascii=False)
     sched_json = os.path.join(CASE, 'folktale_schedule.json')
     srt = os.path.join(CASE, 'folktale_story_video.srt')
-    run([sys.executable, ALIGN, '--audio', narr, '--text', txt, '--lines', lines_json,
-         '--stretch', str(stretch), '--delay', '0.3', '--out', sched_json, '--srt', srt])
+    # subtitle-align v2: character-level alignment of the known script to the audio;
+    # lines are auto-split from the script so every character is shown.
+    run([sys.executable, ALIGN, '--audio', narr, '--text', txt,
+         '--stretch', f'{stretch:.4f}', '--delay', '0.3', '--out', sched_json, '--srt', srt])
     with open(sched_json, encoding='utf-8') as f:
         sched = json.load(f)
 
