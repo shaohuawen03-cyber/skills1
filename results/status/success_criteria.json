@@ -26,7 +26,9 @@
     "watch.ps1",
     "deliverable/accio_1688/accio_1688_merchant_guide.docx",
     "deliverable/accio_1688/accio_1688_quick_view.md",
-    "deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md"
+    "deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md",
+    "deliverable/cases/02_folktale_video/folktale_story_video.mp4",
+    "deliverable/accio_1688/accio_work_case_walkthrough.md"
   ],
   "require_contains": {
     "deliverable/README.md": "案例包（结果路径总览）",
@@ -36,7 +38,8 @@
     "skills/commercial/ai-business-plan-sop/SKILL.md": "334",
     "deliverable/OFFICE_HASHES.json": "build_commercial_cases.py",
     "deliverable/accio_1688/accio_1688_quick_view.md": "1688",
-    "deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md": "AccioWork"
+    "deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md": "AccioWork",
+    "deliverable/accio_1688/accio_work_case_walkthrough.md": "源头工厂"
   },
   "min_bytes": {
     "deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx": 50000,
@@ -47,7 +50,9 @@
     "deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx": 50000,
     "deliverable/accio_1688/accio_1688_merchant_guide.docx": 40000,
     "deliverable/accio_1688/accio_1688_quick_view.md": 2000,
-    "deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md": 3000
+    "deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md": 3000,
+    "deliverable/cases/02_folktale_video/folktale_story_video.mp4": 2000000,
+    "deliverable/accio_1688/accio_work_case_walkthrough.md": 3000
   },
   "forbid_files": [
     "local/inbox",

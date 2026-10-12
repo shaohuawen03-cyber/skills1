@@ -23,6 +23,13 @@
 
 内容：黄金前 3 秒钩子 + 三幕六段式约 560 字剧本全文、Character Lock 角色一致性锁死 12 镜分镜表（每镜中文提示词）、统一画风前缀、Coze 工作流四节点配置（含 5 组爆款标题与置顶评论话术）、剪映 10 分钟成片参数、视频号分成计划高 RPM 运营。
 
+**成片与分镜图（可直接发布）**
+
+| 产物 | 路径 |
+|---|---|
+| 《雪夜来客》竖屏成片 MP4（2 分 10 秒，1080x1920，6 幕 Ken Burns 运镜 + 中文字幕） | [`cases/02_folktale_video/folktale_story_video.mp4`](./cases/02_folktale_video/folktale_story_video.mp4) |
+| 分镜场景图 02-05（蓑衣客递银/灯下开工/村口锣声/雪地揭面，AI 生成） | `cases/02_folktale_video/folktale_scene_02_silver.png` 等 |
+
 ## 案例 03 · 学科课件 0 到 1 变现全流程（`courseware-monetization-sop`）
 
 | 产物 | 路径 |
@@ -51,6 +58,7 @@
 | 《Accio Work x 1688 商家价值全解手册》Word 详版（12 大好处+能力全景+8 大场景金牌指令+案例集+ROI+FAQ） | [`accio_1688/accio_1688_merchant_guide.docx`](./accio_1688/accio_1688_merchant_guide.docx) |
 | 一页速览（好处/能力/场景速查表） | [`accio_1688/accio_1688_quick_view.md`](./accio_1688/accio_1688_quick_view.md) |
 | 封面视觉大图（AI 生成） | [`accio_1688/accio_1688_cover.png`](./accio_1688/accio_1688_cover.png) |
+| 实操复现流程（一条流程走到底，每步贴什么/看什么/验收点） | [`accio_1688/accio_work_case_walkthrough.md`](./accio_1688/accio_work_case_walkthrough.md) |
 
 内容：Accio Work 是什么、1688 商家的机会与痛点、能为商家带来的 12 大好处、39+ 技能全景、
 8 大实战场景每条配可复制金牌指令、9 个真实案例、ROI 速算表、2 周上手路线图、FAQ。
