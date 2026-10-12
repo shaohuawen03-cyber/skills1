@@ -1,10 +1,10 @@
 ﻿# desktop sync receipt (latest)
 
 - host: LAPTOP-R77M5D6M
-- time: 2026-10-12 20:16:54
+- time: 2026-10-12 20:28:08
 - dest: D:\桌面\skills1-deliverables
-- files: 144
-- tree_hash: fcd462ed68f87cfc869c3d5ad9b19d042288ef27b274e404ffbc85acef92cd63
+- files: 155
+- tree_hash: 9cbaa72958be3957a1b7e3661a980057f04c4af672f4b2c475b4e6b8887c9e98
 - action: mirrored
 
 ## file list
@@ -81,11 +81,11 @@
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\02_history_schedule.json  (551 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\02_history_script.txt  (508 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\02_history_video.mp4  (4360339 B)
-- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion.srt  (396 B)
-- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_narration.mp3  (247449 B)
-- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_schedule.json  (527 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion.srt  (758 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_narration.mp3  (508844 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_schedule.json  (1378 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_script.txt  (418 B)
-- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_video.mp4  (1674250 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_video.mp4  (2315818 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\04_fable.srt  (395 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\04_fable_narration.mp3  (243688 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\04_fable_schedule.json  (535 B)
@@ -132,6 +132,17 @@
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\12_business_script.txt  (483 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\12_business_video.mp4  (1242158 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\README.md  (3105 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\clip_01.mp3  (22587 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\clip_02.mp3  (42231 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\clip_03.mp3  (7750 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\clip_04.mp3  (26767 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\clip_05.mp3  (21960 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\clip_06.mp3  (9631 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\clip_07.mp3  (23423 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\clip_08.mp3  (32618 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\clip_09.mp3  (24468 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\clip_10.mp3  (27812 B)
+- D:\桌面\skills1-deliverables\deliverable\genre_videos\03_emotion_lines\lines.json  (457 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\scenes\02_history_1.jpg  (325882 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\scenes\02_history_2.jpg  (346339 B)
 - D:\桌面\skills1-deliverables\deliverable\genre_videos\scenes\03_emotion_1.jpg  (135008 B)

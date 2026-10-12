@@ -1,9 +1,9 @@
 {
-  "round": 5,
-  "arena_state": "awaiting_check",
-  "local_state": "pending",
-  "arena_updated": "2026-10-12 12:27:30",
-  "local_updated": null,
-  "host": "",
-  "note": "round 5: desktop sync (subtitle-by-line skill + 03_emotion exact subtitles)"
+    "round":  5,
+    "arena_state":  "awaiting_check",
+    "local_state":  "passed",
+    "arena_updated":  "2026-10-12 12:27:30",
+    "local_updated":  "2026-10-12 20:28:09",
+    "host":  "LAPTOP-R77M5D6M",
+    "note":  "round 5: desktop sync (subtitle-by-line skill + 03_emotion exact subtitles)"
 }
