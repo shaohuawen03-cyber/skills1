@@ -162,10 +162,29 @@ if ($fetch.code -ne 0) {
 $null = Git @('checkout', $Branch) -Show
 $pull = Git @('pull', '--ff-only', $Remote, $Branch) -Show
 if ($pull.code -ne 0) {
-    Write-Host "[ERROR] pull failed. Your branch has local commits that conflict." -ForegroundColor Red
-    Write-Host "        Diagnose: git status ; git stash list ; git log --oneline -5" -ForegroundColor Yellow
-    Write-Host "        Hard reset (loses local commits): git reset --hard $remoteRef" -ForegroundColor Yellow
-    exit 1
+    # fast-forward impossible: local commits exist AND the remote moved on
+    # (diverged). The local commits are not watcher verdicts (those were
+    # realigned above), so they must be kept: replay them on top of $remoteRef.
+    $ahead2 = Get-AheadSubjects
+    if ($ahead2.Count -gt 0) {
+        Write-Host ("== diverged - rebasing {0} local commit(s) onto {1} (content is kept)" -f $ahead2.Count, $remoteRef) -ForegroundColor Cyan
+        $rb = Git @('-c', 'rebase.autoStash=true', 'rebase', $remoteRef) -Show
+        if ($rb.code -eq 0) {
+            Write-Host "== rebase ok - local commit(s) replayed on top of $remoteRef" -ForegroundColor Green
+        } else {
+            $null = Git @('rebase', '--abort')
+            Write-Host "[ERROR] rebase failed - the local commit(s) conflict with remote changes." -ForegroundColor Red
+            Write-Host "        Inspect: git log --format='%h %s' $remoteRef..HEAD ; git show --stat HEAD" -ForegroundColor Yellow
+            Write-Host "        Resolve by hand: git rebase $remoteRef   (fix files, git add, git rebase --continue)" -ForegroundColor Yellow
+            Write-Host "        Or drop the local commit(s): git reset --hard $remoteRef" -ForegroundColor Yellow
+            exit 1
+        }
+    } else {
+        Write-Host "[ERROR] pull failed and there are no local commits to rebase." -ForegroundColor Red
+        Write-Host "        Diagnose: git status ; git stash list ; git log --oneline -5" -ForegroundColor Yellow
+        Write-Host "        Hard reset (loses uncommitted work): git reset --hard $remoteRef" -ForegroundColor Yellow
+        exit 1
+    }
 }
 
 Write-Host ""
