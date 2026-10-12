@@ -1,10 +1,10 @@
 ﻿# desktop sync receipt (latest)
 
 - host: LAPTOP-R77M5D6M
-- time: 2026-10-12 19:24:43
+- time: 2026-10-12 19:55:10
 - dest: D:\桌面\skills1-deliverables
 - files: 106
-- tree_hash: d5dbbf6b24aa313abb37f7a09815605d5b3bef35031e4b79c324f87390ca41c4
+- tree_hash: 982bf03e45eaa081aded8f230ddefd0fe42b6d452e2b33f4852157ddb84a6ebb
 - action: mirrored
 
 ## file list
@@ -26,9 +26,9 @@
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_03_workshop.png  (2338893 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_04_village.png  (2642744 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_05_reveal.png  (2854628 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_schedule.json  (3125 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.mp4  (13237301 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.srt  (2357 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_schedule.json  (3153 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.mp4  (13306731 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.srt  (2448 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_video_package.docx  (5352646 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\narration_script.txt  (1605 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\03_courseware_sop\autumn_rain_courseware.pptx  (3067398 B)
