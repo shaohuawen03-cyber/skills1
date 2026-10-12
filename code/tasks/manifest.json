@@ -1,0 +1,6 @@
+{
+  "rounds": {
+    "2": ["sync_desktop.ps1"],
+    "3": ["install_accio_work.ps1"]
+  }
+}

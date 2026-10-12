@@ -44,12 +44,32 @@
 
 内容：8 大黄金模块完整成稿（执行摘要/痛点与 TAM-SAM-SOM 三层测算/产品方案与 3 大壁垒/商业模式与单位经济/竞争五维矩阵/GTM 三阶段路线图/团队与股权/融资方案与 3 年财务预测表），Word 详版附录含三档阶梯报价、老板 8 问诊断问卷、8 大接单渠道清单、334 分阶段收款防跑单 SOP。
 
+## 资料包 · Accio Work x 1688 商家价值全解（`accio_1688`）
+
+| 产物 | 路径 |
+|---|---|
+| 《Accio Work x 1688 商家价值全解手册》Word 详版（12 大好处+能力全景+8 大场景金牌指令+案例集+ROI+FAQ） | [`accio_1688/accio_1688_merchant_guide.docx`](./accio_1688/accio_1688_merchant_guide.docx) |
+| 一页速览（好处/能力/场景速查表） | [`accio_1688/accio_1688_quick_view.md`](./accio_1688/accio_1688_quick_view.md) |
+| 封面视觉大图（AI 生成） | [`accio_1688/accio_1688_cover.png`](./accio_1688/accio_1688_cover.png) |
+
+内容：Accio Work 是什么、1688 商家的机会与痛点、能为商家带来的 12 大好处、39+ 技能全景、
+8 大实战场景每条配可复制金牌指令、9 个真实案例、ROI 速算表、2 周上手路线图、FAQ。
+
+## 安装指南 · Accio Work 中文版装到 E 盘（`accio_work_install`）
+
+| 产物 | 路径 |
+|---|---|
+| 《Accio Work 中文版安装到 E 盘完整指南》（自动+手动+搬移联接+5 项必备配置+FAQ） | [`accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md`](./accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md) |
+| 自动安装脚本（watcher 第 3 轮任务执行） | `code/tasks/install_accio_work.ps1` |
+| 安装回执（装机后生成） | `results/accio_install/latest.md` |
+
 ## 复现方法（一键重建全部案例）
 
 ```bash
 python3 code/build_commercial_cases.py            # 构建 4 案例 + 写 OFFICE_HASHES.json
 python3 code/build_commercial_cases.py --only bp  # 只重建一个案例
 python3 code/build_commercial_cases.py --verify   # 只复验 3a-3g 结构
+python3 code/build_accio_1688.py                  # 构建 Accio x 1688 资料包
 ```
 
 ## 免责声明

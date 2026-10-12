@@ -23,7 +23,10 @@
     "skills/commercial/ai-business-plan-sop/SKILL.md",
     "skills/commercial/viral-copy-and-image-studio/SKILL.md",
     "skills/git-sync/SKILL.md",
-    "watch.ps1"
+    "watch.ps1",
+    "deliverable/accio_1688/accio_1688_merchant_guide.docx",
+    "deliverable/accio_1688/accio_1688_quick_view.md",
+    "deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md"
   ],
   "require_contains": {
     "deliverable/README.md": "案例包（结果路径总览）",
@@ -31,7 +34,9 @@
     "skills/commercial/xianyu-ecommerce-sop/SKILL.md": "五步循环爆款选品法",
     "skills/commercial/courseware-monetization-sop/SKILL.md": "逐字稿",
     "skills/commercial/ai-business-plan-sop/SKILL.md": "334",
-    "deliverable/OFFICE_HASHES.json": "build_commercial_cases.py"
+    "deliverable/OFFICE_HASHES.json": "build_commercial_cases.py",
+    "deliverable/accio_1688/accio_1688_quick_view.md": "1688",
+    "deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md": "AccioWork"
   },
   "min_bytes": {
     "deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx": 50000,
@@ -39,10 +44,16 @@
     "deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx": 50000,
     "deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx": 15000,
     "deliverable/cases/04_business_plan/smart_eldercare_bp.docx": 15000,
-    "deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx": 50000
+    "deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx": 50000,
+    "deliverable/accio_1688/accio_1688_merchant_guide.docx": 40000,
+    "deliverable/accio_1688/accio_1688_quick_view.md": 2000,
+    "deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md": 3000
   },
   "forbid_files": [
     "local/inbox",
     "deliverable/local/inbox"
+  ],
+  "notes": [
+    "accio_1688_merchant_guide.docx >=40000 bytes; accio_1688_quick_view.md >=2000 bytes; ACCIO_WORK_INSTALL_E_DRIVE.md >=3000 bytes; task receipts results/desktop_sync/ and results/accio_install/ are produced on the user machine (round 2 / round 3), not required here."
   ]
 }
