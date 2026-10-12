@@ -27,7 +27,9 @@
 
 | 产物 | 路径 |
 |---|---|
-| 《雪夜来客》竖屏成片 MP4（2 分 10 秒，1080x1920，6 幕 Ken Burns 运镜 + 中文字幕） | [`cases/02_folktale_video/folktale_story_video.mp4`](./cases/02_folktale_video/folktale_story_video.mp4) |
+| 《雪夜来客》竖屏成片 MP4（2 分 10 秒，1080x1920，6 幕 Ken Burns 运镜 + 中文字幕 + 说书配音） | [`cases/02_folktale_video/folktale_story_video.mp4`](./cases/02_folktale_video/folktale_story_video.mp4) |
+| 说书配音稿（可复用给剪映/其他配音） | [`cases/02_folktale_video/narration_script.txt`](./cases/02_folktale_video/narration_script.txt) |
+| 说书配音音频（与成片同步） | [`cases/02_folktale_video/folktale_narration.mp3`](./cases/02_folktale_video/folktale_narration.mp3) |
 | 分镜场景图 02-05（蓑衣客递银/灯下开工/村口锣声/雪地揭面，AI 生成） | `cases/02_folktale_video/folktale_scene_02_silver.png` 等 |
 
 ## 案例 03 · 学科课件 0 到 1 变现全流程（`courseware-monetization-sop`）
