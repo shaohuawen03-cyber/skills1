@@ -1,9 +1,9 @@
 {
-  "round": 6,
-  "arena_state": "awaiting_check",
-  "local_state": "pending",
-  "arena_updated": "2026-10-12 12:37:03",
-  "local_updated": null,
-  "host": "",
-  "note": "round 6: desktop sync (folktale v4, 9 subtitle cards, exact)"
+    "round":  6,
+    "arena_state":  "awaiting_check",
+    "local_state":  "passed",
+    "arena_updated":  "2026-10-12 12:37:03",
+    "local_updated":  "2026-10-12 20:39:31",
+    "host":  "LAPTOP-R77M5D6M",
+    "note":  "round 6: desktop sync (folktale v4, 9 subtitle cards, exact)"
 }

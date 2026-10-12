@@ -1,10 +1,10 @@
 ﻿# desktop sync receipt (latest)
 
 - host: LAPTOP-R77M5D6M
-- time: 2026-10-12 20:28:08
+- time: 2026-10-12 20:39:31
 - dest: D:\桌面\skills1-deliverables
-- files: 155
-- tree_hash: 9cbaa72958be3957a1b7e3661a980057f04c4af672f4b2c475b4e6b8887c9e98
+- files: 165
+- tree_hash: 1643abb6cd4be56444fdb44e96929befbcb3f455bc467f60263f5f674a339475
 - action: mirrored
 
 ## file list
@@ -20,17 +20,27 @@
 - D:\桌面\skills1-deliverables\deliverable\cases\01_xianyu_ecommerce\xianyu_review_tracker.csv  (573 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\coze_workflow_blueprint.json  (1752 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_cover_vertical.png  (2628104 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_narration.mp3  (1722284 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_narration.mp3  (1765676 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_01_carpenter.png  (2681269 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_02_silver.png  (2587961 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_03_workshop.png  (2338893 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_04_village.png  (2642744 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_05_reveal.png  (2854628 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_schedule.json  (5146 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.mp4  (12369896 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.srt  (2794 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_schedule.json  (2400 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.mp4  (12223608 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.srt  (1804 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_video_package.docx  (5352646 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\narration_script.txt  (1605 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\cards_v4\clip_01.mp3  (89670 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\cards_v4\clip_02.mp3  (72533 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\cards_v4\clip_03.mp3  (93222 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\cards_v4\clip_04.mp3  (112031 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\cards_v4\clip_05.mp3  (110359 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\cards_v4\clip_06.mp3  (95730 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\cards_v4\clip_07.mp3  (83818 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\cards_v4\clip_08.mp3  (99492 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\cards_v4\clip_09.mp3  (112031 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\cards_v4\lines.json  (1570 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_01.mp3  (24050 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_02.mp3  (12765 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_03.mp3  (18826 B)
