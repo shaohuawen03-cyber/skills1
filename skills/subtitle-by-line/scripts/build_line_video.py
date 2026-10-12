@@ -67,13 +67,18 @@ def font_path():
 
 
 def make_sub(text, dst, font):
+    """one subtitle card; '\n' in the text starts a new row (rows share one timing)."""
     canvas = Image.new('RGBA', (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(canvas)
     f = ImageFont.truetype(font, 54)
-    bbox = d.textbbox((0, 0), text, font=f, stroke_width=4)
-    x = (W - (bbox[2] - bbox[0])) // 2
-    d.text((x, int(H * 0.72)), text, font=f, fill=(255, 226, 140, 255),
-           stroke_width=4, stroke_fill=(0, 0, 0, 255))
+    rows = text.split('\n')
+    y = int(H * 0.72) - (len(rows) - 1) * 42
+    for row in rows:
+        bbox = d.textbbox((0, 0), row, font=f, stroke_width=4)
+        x = (W - (bbox[2] - bbox[0])) // 2
+        d.text((x, y), row, font=f, fill=(255, 226, 140, 255),
+               stroke_width=4, stroke_fill=(0, 0, 0, 255))
+        y += 84
     canvas.save(dst)
 
 
