@@ -1,0 +1,50 @@
+{
+  "name": "folktale_video_one_click",
+  "version": "1.0",
+  "skill": "ai-folktale-video-sop",
+  "start_inputs": [
+    "story_theme",
+    "protagonist",
+    "scene_style",
+    "cultural_element"
+  ],
+  "nodes": [
+    {
+      "id": "llm_story",
+      "model": "DeepSeek-R1",
+      "role": "story_architect",
+      "output": "550-word three-act six-segment folk tale + character anchors"
+    },
+    {
+      "id": "llm_shots",
+      "model": "GPT-class",
+      "role": "shot_compiler",
+      "output": "12 numbered shots with style prefix + character anchor + CN/EN prompts"
+    },
+    {
+      "id": "llm_guard",
+      "model": "Claude-class",
+      "role": "compliance_and_rpm_optimizer",
+      "output": "compliance-safe script + 5 viral titles + pinned comment pack"
+    },
+    {
+      "id": "batch_synth",
+      "concurrency": 2,
+      "calls": [
+        "TTS cloud voice",
+        "text-to-image",
+        "image-to-video"
+      ],
+      "out_dir": "editor_draft/"
+    }
+  ],
+  "style_prefix_cn": "中式传统水墨厚涂插画风格，国风悬疑电影感，丁达尔暖黄灯笼光与青黛夜雾对比，工笔细节，8K超高清",
+  "title_pack": [
+    "老木匠除夕夜接了单\"三更活\"，二十年前的恩人竟找上门来！",
+    "徽州雪夜奇闻：上门送银的\"无影客\"，斗笠下竟是新任县令！",
+    "鲁班尺上\"病离\"二字现形那晚，他偏要提灯去还这笔账",
+    "民间老话：渡人莫渡无影客，可这老木匠偏偏不信邪！",
+    "雪夜叩门送官银，老木匠守了一夜的规矩，救了全家性命"
+  ],
+  "pinned_comment": "老话讲\"但行好事，莫问前程\"。您身边有过好人好报的真实故事吗？留下一句\"善有善报\"，为家人积福！"
+}

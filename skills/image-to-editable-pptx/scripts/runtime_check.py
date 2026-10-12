@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+"""Check the local runtime needed by the image-to-editable-PPTX workflow."""
+
+from __future__ import annotations
+
+import argparse
+import importlib
+import json
+import shutil
+import subprocess
+from typing import Any
+
+
+PYTHON_MODULES = {
+    "opencv-python": "cv2",
+    "numpy": "numpy",
+    "pillow": "PIL",
+    "python-pptx": "pptx",
+    "pytesseract": "pytesseract",
+    "PyYAML": "yaml",
+}
+
+
+def check_module(distribution: str, module: str) -> dict[str, Any]:
+    try:
+        loaded = importlib.import_module(module)
+        return {
+            "available": True,
+            "distribution": distribution,
+            "module": module,
+            "version": str(getattr(loaded, "__version__", "unknown")),
+        }
+    except Exception as exc:
+        return {
+            "available": False,
+            "distribution": distribution,
+            "module": module,
+            "error": f"{type(exc).__name__}: {exc}",
+        }
+
+
+def tesseract_languages(executable: str | None) -> list[str]:
+    if not executable:
+        return []
+    proc = subprocess.run(
+        [executable, "--list-langs"],
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        check=False,
+        timeout=20,
+    )
+    return sorted(
+        line.strip()
+        for line in proc.stdout.splitlines()
+        if line.strip() and not line.lower().startswith("list of available languages")
+    )
+
+
+def node_has_pptxgenjs(node: str | None) -> dict[str, Any]:
+    if not node:
+        return {"available": False, "error": "node not found"}
+    proc = subprocess.run(
+        [node, "-e", "const P=require('pptxgenjs'); const p=new P(); console.log(P.version||p.version||'available')"],
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        check=False,
+        timeout=20,
+    )
+    if proc.returncode != 0:
+        return {"available": False, "error": proc.stdout.strip()}
+    return {"available": True, "version": proc.stdout.strip() or "available"}
+
+
+def build_report(ocr_lang: str) -> dict[str, Any]:
+    modules = {name: check_module(name, module) for name, module in PYTHON_MODULES.items()}
+    executables = {name: shutil.which(name) for name in ("python3", "node", "tesseract", "pdftoppm", "soffice", "libreoffice")}
+    langs = tesseract_languages(executables["tesseract"])
+    requested_langs = [item for item in ocr_lang.split("+") if item]
+    missing_langs = [item for item in requested_langs if item not in langs]
+    pptxgenjs = node_has_pptxgenjs(executables["node"])
+    renderer_available = bool(executables["soffice"] or executables["libreoffice"])
+    missing_python = [name for name, status in modules.items() if not status["available"]]
+    ready_core = not missing_python and bool(executables["node"]) and pptxgenjs["available"]
+    ready_compare = renderer_available and bool(executables["pdftoppm"])
+    return {
+        "ready_core": ready_core,
+        "ready_render_compare": ready_compare,
+        "python_modules": modules,
+        "executables": executables,
+        "pptxgenjs": pptxgenjs,
+        "ocr_requested": requested_langs,
+        "ocr_languages_missing": missing_langs,
+        "notes": [
+            "OCR language packs are optional if text is transcribed by another trusted method.",
+            "LibreOffice and pdftoppm are needed only for the provided render-comparison script.",
+        ],
+    }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--ocr-lang", default="eng", help="Tesseract language expression, e.g. chi_sim+eng")
+    args = parser.parse_args()
+    report = build_report(args.ocr_lang)
+    print(json.dumps(report, ensure_ascii=False, indent=2))
+    return 0 if report["ready_core"] else 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

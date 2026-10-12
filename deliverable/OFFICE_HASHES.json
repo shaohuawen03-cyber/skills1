@@ -1,0 +1,179 @@
+{
+  "generated_utc": "2026-10-12T02:55:07Z",
+  "generator": "code/build_commercial_cases.py",
+  "generator_note": "python-docx + python-pptx deliverables for the four commercial skills; this manifest is the contract the REAL machine verifies in code/local_check.ps1 section 3 (3a-3g + 3h Office COM open test)",
+  "how_local_verifies": "sha256/bytes match, OOXML required parts, every xml part parses, relationships resolve, content types cover every part, text markers present, slide counts; then Word/PowerPoint (or WPS) opens them read-only",
+  "files": [
+    {
+      "path": "deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx",
+      "kind": "docx",
+      "bytes": 2682198,
+      "sha256": "6fa6109aa0d57689e9cc428560f8a3e85ee304fa8c39644217814ccb487fce2f",
+      "required_parts": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "word/document.xml",
+        "word/styles.xml",
+        "word/_rels/document.xml.rels",
+        "docProps/core.xml"
+      ],
+      "main_part": "word/document.xml",
+      "must_contain": [
+        "闲鱼",
+        "五步循环",
+        "无痕代发",
+        "飞书多维表格",
+        "SKU"
+      ],
+      "min_slides": null,
+      "sandbox_selftest": {
+        "parts": 18,
+        "slides": 0
+      }
+    },
+    {
+      "path": "deliverable/cases/02_folktale_video/folktale_video_package.docx",
+      "kind": "docx",
+      "bytes": 5352646,
+      "sha256": "956ae37e03f5adfc55d87f87d7a21498843f86530acaa4ce9465f7ce4259418b",
+      "required_parts": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "word/document.xml",
+        "word/styles.xml",
+        "word/_rels/document.xml.rels",
+        "docProps/core.xml"
+      ],
+      "main_part": "word/document.xml",
+      "must_contain": [
+        "雪夜来客",
+        "三幕六段",
+        "Character Anchor",
+        "Coze",
+        "视频号分成计划"
+      ],
+      "min_slides": null,
+      "sandbox_selftest": {
+        "parts": 19,
+        "slides": 0
+      }
+    },
+    {
+      "path": "deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx",
+      "kind": "pptx",
+      "bytes": 3067398,
+      "sha256": "fd6d042a5d935890ce0c188f0036e5d00c7f631fc2773eed2b347e7c177b4628",
+      "required_parts": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "ppt/presentation.xml",
+        "ppt/_rels/presentation.xml.rels",
+        "ppt/slides/slide1.xml",
+        "ppt/slideMasters/slideMaster1.xml",
+        "ppt/slideLayouts/slideLayout1.xml",
+        "ppt/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "main_part": "ppt/presentation.xml",
+      "must_contain": [
+        "秋天的雨",
+        "银杏",
+        "五彩缤纷",
+        "小练笔",
+        "钥匙"
+      ],
+      "min_slides": 10,
+      "sandbox_selftest": {
+        "parts": 57,
+        "slides": 10
+      }
+    },
+    {
+      "path": "deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx",
+      "kind": "docx",
+      "bytes": 39843,
+      "sha256": "0f6dc21b81701c0c59bd236e689bfc4ad7d76f2cb30b89b48d61c7f8694b6e7d",
+      "required_parts": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "word/document.xml",
+        "word/styles.xml",
+        "word/_rels/document.xml.rels",
+        "docProps/core.xml"
+      ],
+      "main_part": "word/document.xml",
+      "must_contain": [
+        "教案",
+        "逐字稿",
+        "小红书",
+        "种草",
+        "核心素养"
+      ],
+      "min_slides": null,
+      "sandbox_selftest": {
+        "parts": 17,
+        "slides": 0
+      }
+    },
+    {
+      "path": "deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx",
+      "kind": "pptx",
+      "bytes": 2787686,
+      "sha256": "10741bf5b1fd3214494dfcd9bfdb112ec547f6c4f7f210eeb7894d6c595917ee",
+      "required_parts": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "ppt/presentation.xml",
+        "ppt/_rels/presentation.xml.rels",
+        "ppt/slides/slide1.xml",
+        "ppt/slideMasters/slideMaster1.xml",
+        "ppt/slideLayouts/slideLayout1.xml",
+        "ppt/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "main_part": "ppt/presentation.xml",
+      "must_contain": [
+        "智护银龄",
+        "TAM",
+        "融资",
+        "财务预测",
+        "路线图",
+        "500 万"
+      ],
+      "min_slides": 12,
+      "sandbox_selftest": {
+        "parts": 61,
+        "slides": 12
+      }
+    },
+    {
+      "path": "deliverable/cases/04_business_plan/smart_eldercare_bp.docx",
+      "kind": "docx",
+      "bytes": 40820,
+      "sha256": "fb80bbff2445198d9d113b85f4b7d0c8aabf6e291708a3d9e0b0e55ae491ae81",
+      "required_parts": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "word/document.xml",
+        "word/styles.xml",
+        "word/_rels/document.xml.rels",
+        "docProps/core.xml"
+      ],
+      "main_part": "word/document.xml",
+      "must_contain": [
+        "智护银龄",
+        "TAM",
+        "SAM",
+        "SOM",
+        "财务预测",
+        "334",
+        "接单"
+      ],
+      "min_slides": null,
+      "sandbox_selftest": {
+        "parts": 17,
+        "slides": 0
+      }
+    }
+  ]
+}

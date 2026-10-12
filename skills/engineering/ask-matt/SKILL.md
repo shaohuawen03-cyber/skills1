@@ -92,6 +92,18 @@ Off the main flow entirely.
 - **`/teach`**: learn a concept over multiple sessions, using the current directory as a stateful workspace.
 - **`/writing-for-agents`** is the reference for writing documents agents consume: skills, AGENTS.md, pointed-at docs.
 
+## Commercial monetization pack (`skills/commercial/`)
+
+Outside the engineering flows entirely: four model-invoked SOP skills that turn a commercial brief into sellable deliverables, plus the visual copy studio they share. Each SKILL.md carries its own one-command case builder (`code/build_commercial_cases.py`).
+
+- **`xianyu-ecommerce-sop`**: 闲鱼电商从 0-1: store persona, five-step product hunting, 30-character SEO titles, image/detail-page planning, dropshipping SOP, service scripts, review tables.
+- **`ai-folktale-video-sop`**: AI 民间故事视频 for 视频号分成计划: three-act scripts with a 3-second hook, character-locked 12-shot storyboards, Coze workflow blueprint, editor parameters, revenue ops.
+- **`courseware-monetization-sop`**: 学科课件 0 到 1 变现: benchmark teardown, AI illustration packs, editable PPTX assembly, lesson plan + verbatim teaching script generation, listing and note marketing.
+- **`ai-business-plan-sop`**: AI 代做商业计划书: diagnosis questionnaire, consulting narrative structure, TAM/SAM/SOM and 3-year financial tables, Word + pitch-deck dual output, client channels and staged-payment terms.
+- **`viral-copy-and-image-studio`**: the shared copy and image layer: five title formulas and a six-dimension prompt compiler for any of the skills above.
+
+Integration helpers, also outside the main flow: **`git-sync`** (bidirectional local <-> Arena sync with an auto-verification watcher), **`harness-anything`** (WPS Office COM CLI for native .docx/.xlsx/.pptx), **`image-to-editable-pptx`** (flattened images to editable PPTX), **`cyber-ppt`** (consulting-grade deck discipline). See each SKILL.md.
+
 ## Precondition
 
 **`/setup-matt-pocock-skills`**: run before your first engineering flow to configure the issue tracker, triage labels, and doc layout the other skills assume. Custom issue trackers also work.

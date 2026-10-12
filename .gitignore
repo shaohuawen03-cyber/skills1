@@ -1,2 +1,11 @@
 node_modules
 .claude
+~$*
+*.tmp
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+_export/
+Unselected files/
+.github/workflows/

@@ -1,0 +1,9 @@
+click>=8.0.0
+prompt-toolkit>=3.0.0
+
+[:platform_system == "Windows"]
+pywin32>=305
+
+[dev]
+pytest
+pytest-cov

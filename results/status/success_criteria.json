@@ -1,0 +1,48 @@
+{
+  "description": "Commercial skills case pack: 4 case folders each with at least one Office deliverable + AI art, plus the deliverable index and the office manifest that local_check.ps1 verifies.",
+  "require_files": [
+    "deliverable/README.md",
+    "deliverable/OFFICE_HASHES.json",
+    "deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx",
+    "deliverable/cases/01_xianyu_ecommerce/xianyu_review_tracker.csv",
+    "deliverable/cases/01_xianyu_ecommerce/xianyu_product_scene.png",
+    "deliverable/cases/02_folktale_video/folktale_video_package.docx",
+    "deliverable/cases/02_folktale_video/coze_workflow_blueprint.json",
+    "deliverable/cases/02_folktale_video/folktale_scene_01_carpenter.png",
+    "deliverable/cases/02_folktale_video/folktale_cover_vertical.png",
+    "deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx",
+    "deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx",
+    "deliverable/cases/03_courseware_sop/courseware_illustration_autumn.png",
+    "deliverable/cases/03_courseware_sop/xiaohongshu_cover_note.png",
+    "deliverable/cases/04_business_plan/smart_eldercare_bp.docx",
+    "deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx",
+    "deliverable/cases/04_business_plan/bp_cover_visual.png",
+    "skills/commercial/xianyu-ecommerce-sop/SKILL.md",
+    "skills/commercial/ai-folktale-video-sop/SKILL.md",
+    "skills/commercial/courseware-monetization-sop/SKILL.md",
+    "skills/commercial/ai-business-plan-sop/SKILL.md",
+    "skills/commercial/viral-copy-and-image-studio/SKILL.md",
+    "skills/git-sync/SKILL.md",
+    "watch.ps1"
+  ],
+  "require_contains": {
+    "deliverable/README.md": "案例包（结果路径总览）",
+    "skills/commercial/ai-folktale-video-sop/SKILL.md": "三幕六段",
+    "skills/commercial/xianyu-ecommerce-sop/SKILL.md": "五步循环选品法",
+    "skills/commercial/courseware-monetization-sop/SKILL.md": "逐字稿",
+    "skills/commercial/ai-business-plan-sop/SKILL.md": "334",
+    "deliverable/OFFICE_HASHES.json": "build_commercial_cases.py"
+  },
+  "min_bytes": {
+    "deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx": 50000,
+    "deliverable/cases/02_folktale_video/folktale_video_package.docx": 50000,
+    "deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx": 50000,
+    "deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx": 15000,
+    "deliverable/cases/04_business_plan/smart_eldercare_bp.docx": 15000,
+    "deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx": 50000
+  },
+  "forbid_files": [
+    "local/inbox",
+    "deliverable/local/inbox"
+  ]
+}

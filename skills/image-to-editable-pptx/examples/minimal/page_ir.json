@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "pages": [
+    {
+      "id": "slide-1",
+      "width_px": 1600,
+      "height_px": 900,
+      "background": "#FFFFFF",
+      "objects": [
+        {
+          "id": "title",
+          "type": "text",
+          "bbox": [70, 55, 1200, 80],
+          "text": "Image to Editable PPTX",
+          "z": 10,
+          "style": {
+            "font_face": "Arial",
+            "font_size_pt": 30,
+            "bold": true,
+            "color": "#111111",
+            "align": "left",
+            "valign": "top",
+            "margin_pt": 0
+          }
+        },
+        {
+          "id": "accent-line",
+          "type": "line",
+          "points": [70, 150, 1530, 150],
+          "z": 2,
+          "style": {
+            "color": "#F05A28",
+            "width_pt": 2.2,
+            "dash": "solid",
+            "start_arrow": "none",
+            "end_arrow": "none"
+          }
+        },
+        {
+          "id": "card",
+          "type": "round_rect",
+          "bbox": [180, 260, 520, 260],
+          "z": 1,
+          "style": {
+            "fill": "#FFF4EF",
+            "line": "#F05A28",
+            "line_width_pt": 1.4
+          }
+        },
+        {
+          "id": "card-title",
+          "type": "text",
+          "bbox": [230, 300, 420, 60],
+          "text": "Editable text + native shapes",
+          "z": 10,
+          "style": {
+            "font_face": "Arial",
+            "font_size_pt": 20,
+            "bold": true,
+            "color": "#F05A28",
+            "align": "center",
+            "valign": "mid",
+            "margin_pt": 0
+          }
+        },
+        {
+          "id": "arrow",
+          "type": "line",
+          "points": [760, 390, 1040, 390],
+          "z": 5,
+          "style": {
+            "color": "#F05A28",
+            "width_pt": 3,
+            "dash": "solid",
+            "start_arrow": "none",
+            "end_arrow": "triangle"
+          }
+        },
+        {
+          "id": "output",
+          "type": "rect",
+          "bbox": [1110, 300, 300, 180],
+          "z": 1,
+          "style": {
+            "fill": "#FFFFFF",
+            "line": "#222222",
+            "line_width_pt": 1.2
+          }
+        },
+        {
+          "id": "output-label",
+          "type": "text",
+          "bbox": [1140, 350, 240, 80],
+          "text": "Editable PPTX",
+          "z": 10,
+          "style": {
+            "font_face": "Arial",
+            "font_size_pt": 22,
+            "bold": true,
+            "color": "#222222",
+            "align": "center",
+            "valign": "mid",
+            "margin_pt": 0
+          }
+        }
+      ]
+    }
+  ]
+}

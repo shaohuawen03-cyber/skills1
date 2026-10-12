@@ -256,3 +256,15 @@ General workflow tools, not code-specific.
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive behind `grill-me`, `grill-with-docs`, `triage`, `wayfinder` and `improve-codebase-architecture`.
 - **[writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md)**: Writing documents for agents: skills, AGENTS.md/CLAUDE.md, and any doc an agent reaches by a pointer.
+
+### Commercial
+
+Model-invoked monetization playbooks in [`skills/commercial/`](./skills/commercial/README.md) (non-promoted: not in the plugin, bucket README is the entry point). Each ships a one-command case builder (`code/build_commercial_cases.py`) whose outputs land in [`deliverable/`](./deliverable/README.md).
+
+- **[xianyu-ecommerce-sop](./skills/commercial/xianyu-ecommerce-sop/SKILL.md)**: 闲鱼电商从 0-1: persona, product hunting, SEO titles, images and detail pages, dropshipping SOP, service scripts, review tables.
+- **[ai-folktale-video-sop](./skills/commercial/ai-folktale-video-sop/SKILL.md)**: AI 民间故事视频 for 视频号分成计划: hook scripts, character-locked storyboards, Coze workflow blueprint, editor parameters, revenue ops.
+- **[courseware-monetization-sop](./skills/commercial/courseware-monetization-sop/SKILL.md)**: 学科课件 0 到 1 变现: benchmark teardown, AI illustration packs, editable PPTX assembly, lesson plan and verbatim script generation, listing and note marketing.
+- **[ai-business-plan-sop](./skills/commercial/ai-business-plan-sop/SKILL.md)**: AI 代做商业计划书: diagnosis questionnaire, consulting narrative, TAM/SAM/SOM and financial tables, Word + pitch-deck dual output, client channels and staged payments.
+- **[viral-copy-and-image-studio](./skills/commercial/viral-copy-and-image-studio/SKILL.md)**: Shared copy and image layer: five viral title formulas and a six-dimension prompt compiler.
+
+Integration helpers, also non-promoted: **[git-sync](./skills/git-sync/SKILL.md)** (local <-> Arena sync with auto-verification watcher), **[harness-anything](./skills/harness-anything/SKILL.md)** (WPS Office COM CLI), **[image-to-editable-pptx](./skills/image-to-editable-pptx/SKILL.md)**, **[cyber-ppt](./skills/cyber-ppt/SKILL.md)**.

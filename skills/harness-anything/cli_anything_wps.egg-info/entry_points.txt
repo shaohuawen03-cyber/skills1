@@ -1,0 +1,2 @@
+[console_scripts]
+cli-anything-wps = cli_anything.wps.wps_cli:main
