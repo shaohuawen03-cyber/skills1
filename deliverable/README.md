@@ -65,6 +65,14 @@
 内容：Accio Work 是什么、1688 商家的机会与痛点、能为商家带来的 12 大好处、39+ 技能全景、
 8 大实战场景每条配可复制金牌指令、9 个真实案例、ROI 速算表、2 周上手路线图、FAQ。
 
+## 12 类视频成片包（`genre_videos`）
+
+| 产物 | 路径 |
+|---|---|
+| 12 类视频成片总目录（每款 = 竖屏 MP4 + 说书配音 + 分镜图） | [`genre_videos/README.md`](./genre_videos/README.md) |
+| 已出片：历史人物/情感电台/童话寓言/都市悬疑/生活科普 5 款 | `genre_videos/0*_video.mp4` |
+| 民间故事款《雪夜来客》 | `cases/02_folktale_video/folktale_story_video.mp4` |
+
 ## 安装指南 · Accio Work 中文版装到 E 盘（`accio_work_install`）
 
 | 产物 | 路径 |
