@@ -1,9 +1,9 @@
 {
-    "round":  2,
-    "arena_state":  "awaiting_check",
-    "local_state":  "passed",
-    "arena_updated":  "2026-10-12 07:21:43",
-    "local_updated":  "2026-10-12 19:24:43",
-    "host":  "LAPTOP-R77M5D6M",
-    "note":  "round 2: sync deliverable tree to a new Desktop folder (task sync_desktop.ps1)"
+  "round": 3,
+  "arena_state": "awaiting_check",
+  "local_state": "pending",
+  "arena_updated": "2026-10-12 11:53:40",
+  "local_updated": null,
+  "host": "",
+  "note": "round 3: desktop sync of re-cut folktale video (subtitle v2)"
 }
