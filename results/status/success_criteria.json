@@ -28,7 +28,7 @@
   "require_contains": {
     "deliverable/README.md": "案例包（结果路径总览）",
     "skills/commercial/ai-folktale-video-sop/SKILL.md": "三幕六段",
-    "skills/commercial/xianyu-ecommerce-sop/SKILL.md": "五步循环选品法",
+    "skills/commercial/xianyu-ecommerce-sop/SKILL.md": "五步循环爆款选品法",
     "skills/commercial/courseware-monetization-sop/SKILL.md": "逐字稿",
     "skills/commercial/ai-business-plan-sop/SKILL.md": "334",
     "deliverable/OFFICE_HASHES.json": "build_commercial_cases.py"
