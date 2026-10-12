@@ -1,9 +1,9 @@
 {
-  "round": 4,
-  "arena_state": "awaiting_check",
-  "local_state": "pending",
-  "arena_updated": "2026-10-12 12:16:22",
-  "local_updated": null,
-  "host": "",
-  "note": "round 4: desktop sync of folktale v3 (per-line clips)"
+    "round":  4,
+    "arena_state":  "awaiting_check",
+    "local_state":  "passed",
+    "arena_updated":  "2026-10-12 12:16:22",
+    "local_updated":  "2026-10-12 20:16:54",
+    "host":  "LAPTOP-R77M5D6M",
+    "note":  "round 4: desktop sync of folktale v3 (per-line clips)"
 }

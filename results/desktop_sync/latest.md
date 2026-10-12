@@ -1,10 +1,10 @@
 ﻿# desktop sync receipt (latest)
 
 - host: LAPTOP-R77M5D6M
-- time: 2026-10-12 19:55:10
+- time: 2026-10-12 20:16:54
 - dest: D:\桌面\skills1-deliverables
-- files: 106
-- tree_hash: 982bf03e45eaa081aded8f230ddefd0fe42b6d452e2b33f4852157ddb84a6ebb
+- files: 144
+- tree_hash: fcd462ed68f87cfc869c3d5ad9b19d042288ef27b274e404ffbc85acef92cd63
 - action: mirrored
 
 ## file list
@@ -20,17 +20,55 @@
 - D:\桌面\skills1-deliverables\deliverable\cases\01_xianyu_ecommerce\xianyu_review_tracker.csv  (573 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\coze_workflow_blueprint.json  (1752 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_cover_vertical.png  (2628104 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_narration.mp3  (850355 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_narration.mp3  (1722284 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_01_carpenter.png  (2681269 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_02_silver.png  (2587961 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_03_workshop.png  (2338893 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_04_village.png  (2642744 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_scene_05_reveal.png  (2854628 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_schedule.json  (3153 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.mp4  (13306731 B)
-- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.srt  (2448 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_schedule.json  (5146 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.mp4  (12369896 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_story_video.srt  (2794 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\folktale_video_package.docx  (5352646 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\narration_script.txt  (1605 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_01.mp3  (24050 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_02.mp3  (12765 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_03.mp3  (18826 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_04.mp3  (14437 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_05.mp3  (18617 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_06.mp3  (33872 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_07.mp3  (23423 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_08.mp3  (30111 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_09.mp3  (21333 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_10.mp3  (8795 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_11.mp3  (13392 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_12.mp3  (21542 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_13.mp3  (15273 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_14.mp3  (31991 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_15.mp3  (22587 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_16.mp3  (27185 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_17.mp3  (23005 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_18.mp3  (12347 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_19.mp3  (32618 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_20.mp3  (23632 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_21.mp3  (19871 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_22.mp3  (27812 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_23.mp3  (16945 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_24.mp3  (10049 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_25.mp3  (24468 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_26.mp3  (11302 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_27.mp3  (30947 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_28.mp3  (20915 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_29.mp3  (27394 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_30.mp3  (16527 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_31.mp3  (10467 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_32.mp3  (21542 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_33.mp3  (15273 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_34.mp3  (19244 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_35.mp3  (19244 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_36.mp3  (24468 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_37.mp3  (21960 B)
+- D:\桌面\skills1-deliverables\deliverable\cases\02_folktale_video\tts_lines\line_38.mp3  (36380 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\03_courseware_sop\autumn_rain_courseware.pptx  (3067398 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\03_courseware_sop\autumn_rain_teaching_package.docx  (39843 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\03_courseware_sop\courseware_illustration_autumn.png  (3020564 B)

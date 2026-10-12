@@ -1,0 +1,155 @@
+check round 4 on LAPTOP-R77M5D6M - passed (exit 0)
+cmd: powershell -NoProfile -ExecutionPolicy Bypass -File code/local_check.ps1
+elapsed: 43s
+
+OK: all .ps1 files are ASCII-only
+OK: sync.config.json branch=arena/def3bdd3-skills1
+OK: sync.config.json branch matches HEAD (arena/def3bdd3-skills1)
+OK: root scripts identical to skills/git-sync/scripts
+OK: no drive-style variable typos ($var:)
+== exits in Invoke-PollRound: 6
+OK: every exit path sets its closing summary
+== exits in Invoke-PollOnce: 2 (lock held / crashed / normal)
+OK: loop closing lines covered (6 exit paths, all with their own summary)
+OK: every .ps1 parses
+   (gate ran via E:\hermes\git\bin\bash.exe [git])
+== accept 2a: silent push PROVEN (ls-remote + push --dry-run, prompts disabled)
+== accept 2b (fallback): one LONG-LIVED loop process - one brief flash per logon,
+   not per poll. For zero flash: admin PowerShell -> .\watch.ps1 -Unregister ;
+   .\watch.ps1 -Register -Headless   (or fix the launcher, see watch-*.log)
+== exits in Invoke-PollRound: 6
+OK: every exit path sets its closing summary
+== exits in Invoke-PollOnce: 2 (lock held / crashed / normal)
+OK: loop closing lines covered (6 exit paths, all with their own summary)
+== check_loop_summary PASSED
+== accept 2c: watcher closing lines verified (every exit path has its summary)
+== deliverables: 7 Office file(s) declared in deliverable/OFFICE_HASHES.json
+   OK   3a sha256 + bytes match: deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx (2682198 B, docx)
+   OK   3b all 6 required parts present in deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx
+   OK   3c every XML part parses in deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx (18 parts)
+   OK   3d every relationship target resolves in deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx
+   OK   3e content types cover every part of deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx
+   OK   3f all 5 text markers present in deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx
+   OK   3a sha256 + bytes match: deliverable/cases/02_folktale_video/folktale_video_package.docx (5352646 B, docx)
+   OK   3b all 6 required parts present in deliverable/cases/02_folktale_video/folktale_video_package.docx
+   OK   3c every XML part parses in deliverable/cases/02_folktale_video/folktale_video_package.docx (19 parts)
+   OK   3d every relationship target resolves in deliverable/cases/02_folktale_video/folktale_video_package.docx
+   OK   3e content types cover every part of deliverable/cases/02_folktale_video/folktale_video_package.docx
+   OK   3f all 5 text markers present in deliverable/cases/02_folktale_video/folktale_video_package.docx
+   OK   3a sha256 + bytes match: deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx (3067398 B, pptx)
+   OK   3b all 9 required parts present in deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx
+   OK   3c every XML part parses in deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx (57 parts)
+   OK   3d every relationship target resolves in deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx
+   OK   3e content types cover every part of deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx
+   OK   3f all 5 text markers present in deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx
+   OK   3g slides in deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx : 10 >= 10
+   OK   3a sha256 + bytes match: deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx (39843 B, docx)
+   OK   3b all 6 required parts present in deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx
+   OK   3c every XML part parses in deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx (17 parts)
+   OK   3d every relationship target resolves in deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx
+   OK   3e content types cover every part of deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx
+   OK   3f all 5 text markers present in deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx
+   OK   3a sha256 + bytes match: deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx (2787686 B, pptx)
+   OK   3b all 9 required parts present in deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx
+   OK   3c every XML part parses in deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx (61 parts)
+   OK   3d every relationship target resolves in deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx
+   OK   3e content types cover every part of deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx
+   OK   3f all 6 text markers present in deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx
+   OK   3g slides in deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx : 12 >= 12
+   OK   3a sha256 + bytes match: deliverable/cases/04_business_plan/smart_eldercare_bp.docx (40820 B, docx)
+   OK   3b all 6 required parts present in deliverable/cases/04_business_plan/smart_eldercare_bp.docx
+   OK   3c every XML part parses in deliverable/cases/04_business_plan/smart_eldercare_bp.docx (17 parts)
+   OK   3d every relationship target resolves in deliverable/cases/04_business_plan/smart_eldercare_bp.docx
+   OK   3e content types cover every part of deliverable/cases/04_business_plan/smart_eldercare_bp.docx
+   OK   3f all 7 text markers present in deliverable/cases/04_business_plan/smart_eldercare_bp.docx
+   OK   3a sha256 + bytes match: deliverable/accio_1688/accio_1688_merchant_guide.docx (2655472 B, docx)
+   OK   3b all 6 required parts present in deliverable/accio_1688/accio_1688_merchant_guide.docx
+   OK   3c every XML part parses in deliverable/accio_1688/accio_1688_merchant_guide.docx (18 parts)
+   OK   3d every relationship target resolves in deliverable/accio_1688/accio_1688_merchant_guide.docx
+   OK   3e content types cover every part of deliverable/accio_1688/accio_1688_merchant_guide.docx
+   OK   3f all 4 text markers present in deliverable/accio_1688/accio_1688_merchant_guide.docx
+   OK   3h Word.Application opened read-only, name=xianyu_ecommerce_manual.docx : deliverable\cases\01_xianyu_ecommerce\xianyu_ecommerce_manual.docx
+   OK   3h Word.Application opened read-only, name=folktale_video_package.docx : deliverable\cases\02_folktale_video\folktale_video_package.docx
+   OK   3h PowerPoint.Application opened read-only, slides=10 : deliverable\cases\03_courseware_sop\autumn_rain_courseware.pptx
+   OK   3h Word.Application opened read-only, name=autumn_rain_teaching_package.docx : deliverable\cases\03_courseware_sop\autumn_rain_teaching_package.docx
+   OK   3h PowerPoint.Application opened read-only, slides=12 : deliverable\cases\04_business_plan\smart_eldercare_pitch.pptx
+   OK   3h Word.Application opened read-only, name=smart_eldercare_bp.docx : deliverable\cases\04_business_plan\smart_eldercare_bp.docx
+   OK   3h Word.Application opened read-only, name=accio_1688_merchant_guide.docx : deliverable\accio_1688\accio_1688_merchant_guide.docx
+== task r4: sync_desktop.ps1
+== desktop sync target: D:\桌面\skills1-deliverables
+== deliverable tree mirrored (robocopy exit 1)
+== receipt: .\results\desktop_sync\latest.md
+== desktop sync task passed
+== task r4 sync_desktop.ps1 ok (2s)
+== accept 2d: hands-free auto_pull/auto_push present in watch.ps1
+== success criteria: results/status/success_criteria.json
+   Commercial skills case pack: 4 case folders each with at least one Office deliverable + AI art, plus the deliverable index and the office manifest that local_check.ps1 verifies.
+   OK   exists: deliverable/README.md (8129 B)
+   OK   exists: deliverable/OFFICE_HASHES.json (6154 B)
+   OK   exists: deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx (2682198 B)
+   OK   exists: deliverable/cases/01_xianyu_ecommerce/xianyu_review_tracker.csv (573 B)
+   OK   exists: deliverable/cases/01_xianyu_ecommerce/xianyu_product_scene.png (2640695 B)
+   OK   exists: deliverable/cases/02_folktale_video/folktale_video_package.docx (5352646 B)
+   OK   exists: deliverable/cases/02_folktale_video/coze_workflow_blueprint.json (1752 B)
+   OK   exists: deliverable/cases/02_folktale_video/folktale_scene_01_carpenter.png (2681269 B)
+   OK   exists: deliverable/cases/02_folktale_video/folktale_cover_vertical.png (2628104 B)
+   OK   exists: deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx (3067398 B)
+   OK   exists: deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx (39843 B)
+   OK   exists: deliverable/cases/03_courseware_sop/courseware_illustration_autumn.png (3020564 B)
+   OK   exists: deliverable/cases/03_courseware_sop/xiaohongshu_cover_note.png (2252728 B)
+   OK   exists: deliverable/cases/04_business_plan/smart_eldercare_bp.docx (40820 B)
+   OK   exists: deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx (2787686 B)
+   OK   exists: deliverable/cases/04_business_plan/bp_cover_visual.png (2735903 B)
+   OK   exists: skills/commercial/xianyu-ecommerce-sop/SKILL.md (9318 B)
+   OK   exists: skills/commercial/ai-folktale-video-sop/SKILL.md (8145 B)
+   OK   exists: skills/commercial/courseware-monetization-sop/SKILL.md (7181 B)
+   OK   exists: skills/commercial/ai-business-plan-sop/SKILL.md (9688 B)
+   OK   exists: skills/commercial/viral-copy-and-image-studio/SKILL.md (3584 B)
+   OK   exists: skills/git-sync/SKILL.md (23888 B)
+   OK   exists: watch.ps1 (84094 B)
+   OK   exists: deliverable/accio_1688/accio_1688_merchant_guide.docx (2655472 B)
+   OK   exists: deliverable/accio_1688/accio_1688_quick_view.md (2620 B)
+   OK   exists: deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md (4657 B)
+   OK   exists: deliverable/cases/02_folktale_video/folktale_story_video.mp4 (12369896 B)
+   OK   exists: deliverable/accio_1688/accio_work_case_walkthrough.md (4842 B)
+   OK   exists: deliverable/genre_videos/README.md (3105 B)
+   OK   exists: skills/subtitle-align/SKILL.md (1778 B)
+   OK   exists: code/align_subtitles.py (12512 B)
+   OK   exists: deliverable/genre_videos/02_history_video.mp4 (4360339 B)
+   OK   exists: deliverable/genre_videos/03_emotion_video.mp4 (1674250 B)
+   OK   exists: deliverable/genre_videos/04_fable_video.mp4 (3513852 B)
+   OK   exists: deliverable/genre_videos/05_suspense_video.mp4 (2351231 B)
+   OK   exists: deliverable/genre_videos/06_science_video.mp4 (2198941 B)
+   OK   exists: deliverable/genre_videos/07_booklist_video.mp4 (1851858 B)
+   OK   exists: deliverable/genre_videos/08_product_video.mp4 (2929694 B)
+   OK   exists: deliverable/genre_videos/09_food_video.mp4 (2388048 B)
+   OK   exists: deliverable/genre_videos/10_travel_video.mp4 (2935381 B)
+   OK   exists: deliverable/genre_videos/11_poetry_video.mp4 (1601609 B)
+   OK   exists: deliverable/genre_videos/12_business_video.mp4 (1242158 B)
+   OK   absent: local/inbox
+   OK   absent: deliverable/local/inbox
+   OK   contains deliverable/README.md <- 案例包（结果路径总览）
+   OK   contains skills/commercial/ai-folktale-video-sop/SKILL.md <- 三幕六段
+   OK   contains skills/commercial/xianyu-ecommerce-sop/SKILL.md <- 五步循环爆款选品法
+   OK   contains skills/commercial/courseware-monetization-sop/SKILL.md <- 逐字稿
+   OK   contains skills/commercial/ai-business-plan-sop/SKILL.md <- 334
+   OK   contains deliverable/OFFICE_HASHES.json <- build_commercial_cases.py
+   OK   contains deliverable/accio_1688/accio_1688_quick_view.md <- 1688
+   OK   contains deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md <- AccioWork
+   OK   contains deliverable/accio_1688/accio_work_case_walkthrough.md <- 源头工厂
+   OK   size deliverable/cases/01_xianyu_ecommerce/xianyu_ecommerce_manual.docx: 2682198 >= 50000
+   OK   size deliverable/cases/02_folktale_video/folktale_video_package.docx: 5352646 >= 50000
+   OK   size deliverable/cases/03_courseware_sop/autumn_rain_courseware.pptx: 3067398 >= 50000
+   OK   size deliverable/cases/03_courseware_sop/autumn_rain_teaching_package.docx: 39843 >= 15000
+   OK   size deliverable/cases/04_business_plan/smart_eldercare_bp.docx: 40820 >= 15000
+   OK   size deliverable/cases/04_business_plan/smart_eldercare_pitch.pptx: 2787686 >= 50000
+   OK   size deliverable/accio_1688/accio_1688_merchant_guide.docx: 2655472 >= 40000
+   OK   size deliverable/accio_1688/accio_1688_quick_view.md: 2620 >= 2000
+   OK   size deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md: 4657 >= 3000
+   OK   size deliverable/cases/02_folktale_video/folktale_story_video.mp4: 12369896 >= 2000000
+   OK   size deliverable/accio_1688/accio_work_case_walkthrough.md: 4842 >= 3000
+   OK   size deliverable/genre_videos/README.md: 3105 >= 2000
+   OK   size deliverable/genre_videos/02_history_video.mp4: 4360339 >= 800000
+   OK   size deliverable/genre_videos/12_business_video.mp4: 1242158 >= 500000
+   OK   size code/align_subtitles.py: 12512 >= 3000
+== local checks passed
