@@ -29,7 +29,20 @@
     "deliverable/accio_work_install/ACCIO_WORK_INSTALL_E_DRIVE.md",
     "deliverable/cases/02_folktale_video/folktale_story_video.mp4",
     "deliverable/accio_1688/accio_work_case_walkthrough.md",
-    "deliverable/genre_videos/README.md"
+    "deliverable/genre_videos/README.md",
+    "skills/subtitle-align/SKILL.md",
+    "code/align_subtitles.py",
+    "deliverable/genre_videos/02_history_video.mp4",
+    "deliverable/genre_videos/03_emotion_video.mp4",
+    "deliverable/genre_videos/04_fable_video.mp4",
+    "deliverable/genre_videos/05_suspense_video.mp4",
+    "deliverable/genre_videos/06_science_video.mp4",
+    "deliverable/genre_videos/07_booklist_video.mp4",
+    "deliverable/genre_videos/08_product_video.mp4",
+    "deliverable/genre_videos/09_food_video.mp4",
+    "deliverable/genre_videos/10_travel_video.mp4",
+    "deliverable/genre_videos/11_poetry_video.mp4",
+    "deliverable/genre_videos/12_business_video.mp4"
   ],
   "require_contains": {
     "deliverable/README.md": "案例包（结果路径总览）",
@@ -55,13 +68,16 @@
     "deliverable/cases/02_folktale_video/folktale_story_video.mp4": 2000000,
     "deliverable/accio_1688/accio_work_case_walkthrough.md": 3000,
     "deliverable/genre_videos/README.md": 2000,
-    "deliverable/genre_videos/02_history_video.mp4": 800000
+    "deliverable/genre_videos/02_history_video.mp4": 800000,
+    "deliverable/genre_videos/12_business_video.mp4": 500000,
+    "code/align_subtitles.py": 3000
   },
   "forbid_files": [
     "local/inbox",
     "deliverable/local/inbox"
   ],
   "notes": [
-    "accio_1688_merchant_guide.docx >=40000 bytes; accio_1688_quick_view.md >=2000 bytes; ACCIO_WORK_INSTALL_E_DRIVE.md >=3000 bytes; task receipts results/desktop_sync/ and results/accio_install/ are produced on the user machine (round 2 / round 3), not required here."
+    "accio_1688_merchant_guide.docx >=40000 bytes; accio_1688_quick_view.md >=2000 bytes; ACCIO_WORK_INSTALL_E_DRIVE.md >=3000 bytes; task receipts results/desktop_sync/ and results/accio_install/ are produced on the user machine (round 2 / round 3), not required here.",
+    "genre videos are 32-42s vertical 1080x1920 with pause-aware aligned subtitles (skills/subtitle-align); per-id .srt and _schedule.json are extra deliverables."
   ]
 }

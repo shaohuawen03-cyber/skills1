@@ -1,34 +1,30 @@
-# 12 类视频成片包（genre_videos）
+# 类型菜单 12 款文案视频 全部完成
 
-> 每款 = 竖屏成片 MP4（1080x1920，中文字幕 + 说书配音）+ 配音稿音频。
-> 全部由同一套流水线生成（`code/build_genre_videos.py`），可复现。
+每款 1 支竖屏成片（1080x1920，25fps，时长随旁白约 32-42 秒）：AI 配音旁白 + **对齐到语音的字幕** + 双场景 Ken Burns 运镜（11/12 为单场景）。
 
-| # | 品类 | 成片 | 状态 |
-|---|---|---|---|
-| 01 | 民间故事/奇闻 | [`../cases/02_folktale_video/folktale_story_video.mp4`](../cases/02_folktale_video/folktale_story_video.mp4)《雪夜来客》2:10 | ✅ |
-| 02 | 历史人物解说 | [`02_history_video.mp4`](02_history_video.mp4)《苏东坡：一蓑烟雨任平生》 | ✅ |
-| 03 | 情感语录/情感电台 | [`03_emotion_video.mp4`](03_emotion_video.mp4)《致负重前行的你》 | ✅ |
-| 04 | 童话寓言/睡前故事 | [`04_fable_video.mp4`](04_fable_video.mp4)《小狐狸的月亮灯笼》 | ✅ |
-| 05 | 都市传说/悬疑反转 | [`05_suspense_video.mp4`](05_suspense_video.mp4)《末班车的第三位乘客》 | ✅ |
-| 06 | 生活科普/健康常识 | [`06_science_video.mp4`](06_science_video.mp4)《冬天晒太阳的大学问》 | ✅ |
-| 07 | 书单号/读书推荐 | 《人到中年必读三本书》 | 生成中 |
-| 08 | 商品带货短视频 | 《这条加绒牛仔裤 卖爆十万条》 | 生成中 |
-| 09 | 美食菜谱解说 | 《外婆的红烧肉》 | 生成中 |
-| 10 | 旅行风光/地理解说 | 《风花雪月的尽头是洱海》 | 生成中 |
-| 11 | 诗词朗诵/国学 | 《将进酒（李白）》 | 生成中 |
-| 12 | 职场/商业知识口播 | 《一个人开公司的第一课》 | 生成中 |
+字幕对齐采用本仓库新技能 `skills/subtitle-align/`（停顿感知强制对齐）：由 `code/align_subtitles.py` 先听旁白停顿、把每句字幕映射到语音真实时间，再烧录字幕、合成视频。每款附 `<id>.srt`（通用字幕文件）与 `<id>_schedule.json`（对齐时间表）。
 
-## 规格
+| # | 类型 | 标题 | 成片 | 旁白 | 文案 | 对齐表 | 时长 |
+|--|--|--|--|--|--|--|--|
+| 02 | 历史人物 | 苏东坡：一蓑烟雨任平生 | `02_history_video.mp4` | `02_history_narration.mp3` | `02_history_script.txt` | `02_history_schedule.json` / `02_history.srt` | 42s |
+| 03 | 情感鸡汤 | 致负重前行的你 | `03_emotion_video.mp4` | `03_emotion_narration.mp3` | `03_emotion_script.txt` | `03_emotion_schedule.json` / `03_emotion.srt` | 32s |
+| 04 | 童话寓言 | 小狐狸的月亮灯笼 | `04_fable_video.mp4` | `04_fable_narration.mp3` | `04_fable_script.txt` | `04_fable_schedule.json` / `04_fable.srt` | 32s |
+| 05 | 悬疑推理 | 末班车的第三位乘客 | `05_suspense_video.mp4` | `05_suspense_narration.mp3` | `05_suspense_script.txt` | `05_suspense_schedule.json` / `05_suspense.srt` | 37s |
+| 06 | 科普知识 | 冬天晒太阳的大学问 | `06_science_video.mp4` | `06_science_narration.mp3` | `06_science_script.txt` | `06_science_schedule.json` / `06_science.srt` | 32s |
+| 07 | 书单推荐 | 人到中年必读三本书 | `07_booklist_video.mp4` | `07_booklist_narration.mp3` | `07_booklist_script.txt` | `07_booklist_schedule.json` / `07_booklist.srt` | 32s |
+| 08 | 带货种草 | 这条加绒牛仔裤 卖爆十万条 | `08_product_video.mp4` | `08_product_narration.mp3` | `08_product_script.txt` | `08_product_schedule.json` / `08_product.srt` | 33s |
+| 09 | 美食教程 | 外婆的红烧肉 | `09_food_video.mp4` | `09_food_narration.mp3` | `09_food_script.txt` | `09_food_schedule.json` / `09_food.srt` | 32s |
+| 10 | 旅行种草 | 风花雪月的尽头是洱海 | `10_travel_video.mp4` | `10_travel_narration.mp3` | `10_travel_script.txt` | `10_travel_schedule.json` / `10_travel.srt` | 33s |
+| 11 | 古诗词 | 将进酒（李白） | `11_poetry_video.mp4` | `11_poetry_narration.mp3` | `11_poetry_script.txt` | `11_poetry_schedule.json` / `11_poetry.srt` | 35s |
+| 12 | 商业案例 | 一个人开公司的第一课 | `12_business_video.mp4` | `12_business_narration.mp3` | `12_business_script.txt` | `12_business_schedule.json` / `12_business.srt` | 38s |
 
-- 竖屏 1080x1920 / 25fps / H.264 + AAC 说书配音（voice-00，配速自动对齐画面）
-- 每款约 60 秒：分镜 Ken Burns 运镜 + 下三分之一黄字黑边字幕
-- 命名规则：`<id>_video.mp4`（成片）、`<id>_narration.mp3`（配音）、`scenes/<id>_<n>.jpg`（分镜图）
+（第 1 款「小猫钓鱼」为技能定位示例词，不做成片；民间故事（雪夜来客）成片在 `deliverable/cases/02_folktale_video/`。）
 
-## 复现
+## 本地重跑
 
-```bash
-python3 code/build_genre_videos.py            # 全部重建
-python3 code/build_genre_videos.py 02_history  # 只重建一款
+```powershell
+python3 code/build_genre_videos.py            # 全部 11 款
+python3 code/build_genre_videos.py 07_booklist # 只做一款
 ```
 
-*发布建议：视频号勾选原创声明；标题/置顶评论话术见各品类配音稿结尾的互动引导。*
+素材图在 `scenes/`（AI 生成底图，竖版 2:3）；字幕对齐细节见 `skills/subtitle-align/SKILL.md`。
