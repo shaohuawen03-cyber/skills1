@@ -17,6 +17,9 @@
     ],
     "7": [
       "collect_upload.ps1"
+    ],
+    "8": [
+      "sync_desktop.ps1"
     ]
   }
 }
