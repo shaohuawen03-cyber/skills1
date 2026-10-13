@@ -1,9 +1,9 @@
 {
-  "round": 7,
-  "arena_state": "awaiting_check",
-  "local_state": "pending",
-  "arena_updated": "2026-10-13 02:20:26",
-  "local_updated": null,
-  "host": "",
-  "note": "round 7: collect AWB pdf from the user machine + extract text"
+    "round":  7,
+    "arena_state":  "awaiting_check",
+    "local_state":  "passed",
+    "arena_updated":  "2026-10-13 02:20:26",
+    "local_updated":  "2026-10-13 10:21:31",
+    "host":  "LAPTOP-R77M5D6M",
+    "note":  "round 7: collect AWB pdf from the user machine + extract text"
 }
