@@ -1,10 +1,10 @@
 ﻿# desktop sync receipt (latest)
 
 - host: LAPTOP-R77M5D6M
-- time: 2026-10-12 20:39:31
+- time: 2026-10-13 10:24:27
 - dest: D:\桌面\skills1-deliverables
-- files: 165
-- tree_hash: 1643abb6cd4be56444fdb44e96929befbcb3f455bc467f60263f5f674a339475
+- files: 169
+- tree_hash: cfbe7b15c65aea8aeb24fabe72e8ca96ebb19df7071563710598eed8091b8bbd
 - action: mirrored
 
 ## file list
@@ -14,6 +14,10 @@
 - D:\桌面\skills1-deliverables\deliverable\accio_1688\accio_1688_merchant_guide.docx  (2655472 B)
 - D:\桌面\skills1-deliverables\deliverable\accio_1688\accio_1688_quick_view.md  (2620 B)
 - D:\桌面\skills1-deliverables\deliverable\accio_1688\accio_work_case_walkthrough.md  (4842 B)
+- D:\桌面\skills1-deliverables\deliverable\accio_visual_case\awb_full_text_clean.txt  (37138 B)
+- D:\桌面\skills1-deliverables\deliverable\accio_visual_case\README.md  (5767 B)
+- D:\桌面\skills1-deliverables\deliverable\accio_visual_case\replica_main_image.png  (1263051 B)
+- D:\桌面\skills1-deliverables\deliverable\accio_visual_case\scene3_visual_optimization_source.md  (4684 B)
 - D:\桌面\skills1-deliverables\deliverable\accio_work_install\ACCIO_WORK_INSTALL_E_DRIVE.md  (4657 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\01_xianyu_ecommerce\xianyu_ecommerce_manual.docx  (2682198 B)
 - D:\桌面\skills1-deliverables\deliverable\cases\01_xianyu_ecommerce\xianyu_product_scene.png  (2640695 B)

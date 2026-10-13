@@ -1,9 +1,9 @@
 {
-  "round": 8,
-  "arena_state": "awaiting_check",
-  "local_state": "pending",
-  "arena_updated": "2026-10-13 02:23:33",
-  "local_updated": null,
-  "host": "",
-  "note": "round 8: desktop sync (AWB visual case)"
+    "round":  8,
+    "arena_state":  "awaiting_check",
+    "local_state":  "passed",
+    "arena_updated":  "2026-10-13 02:23:33",
+    "local_updated":  "2026-10-13 10:24:28",
+    "host":  "LAPTOP-R77M5D6M",
+    "note":  "round 8: desktop sync (AWB visual case)"
 }
